@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "title": "Frites & Co | Burgerhuis sinds 2010",
+    "description": "De beste burgers van Charleville-Mézières. Frites & Co, uw burgerhuis sinds 2010."
+  },
+  "nav": {
+    "menu": "Menu",
+    "reserve": "Reserveren"
+  },
+  "hero": {
+    "tagline": "De beste burgers van Charleville-Mézières",
+    "cta": "Reserveer een tafel"
+  },
+  "about": {
+    "title": "Over ons",
+    "paragraph-1": "Welkom bij <strong>Frites & Co</strong>, in het hart van Place Ducale in Charleville-Mézières. Hier is alles huisgemaakt: onze ambachtelijke burgers, onze handgesneden Belgische friet en onze kwaliteitssauzen.",
+    "paragraph-2": "Verre van gestandaardiseerde ketens, bieden wij authentieke en heerlijke gerechten. Vegetarisch, vis of gastronomisch — elk gerecht wordt met passie bereid, op bestelling.",
+    "specialties": {
+      "burgers": {
+        "title": "Onze huisgemaakte burgers",
+        "description": "Ambachtelijke broodjes, kwaliteits rundvlees, verse groenten en huisgemaakte sauzen."
+      },
+      "frites": {
+        "title": "Dubbel gebakken friet",
+        "description": "Dagelijks handgeschild, Belgisch gebakken in rundervet."
+      },
+      "snacks": {
+        "title": "Onze heerlijke snacks",
+        "description": "Nuggets, wings, uienringen... Al onze bijgerechten zijn huisgemaakt."
+      }
+    }
+  },
+  "menu": {
+    "title": "Ons menu",
+    "view-full": "Bekijk volledig menu"
+  },
+  "cta": {
+    "title": "Zin in een goede burger?",
+    "subtitle": "Reserveer nu uw tafel",
+    "button": "Reserveren"
+  },
+  "footer": {
+    "address": "Place Ducale, Charleville-Mézières",
+    "rights": "Alle rechten voorbehouden",
+    "made-with": "Gemaakt met"
+  }
+}
