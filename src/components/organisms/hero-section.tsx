@@ -23,7 +23,7 @@ export function HeroSection({ className }: HeroSectionProps) {
       <div className={"relative w-full rounded-xl overflow-hidden h-full"}>
         <div className="inset-0 z-0">
           <Image
-            src="/assets/hero-bg.png"
+            src="/assets/hero-bg.webp"
             alt="Délicieux burgers Frites & Co"
             fill
             className="object-cover"
@@ -39,7 +39,7 @@ export function HeroSection({ className }: HeroSectionProps) {
           {/* Logo */}
           <div className="relative h-48 w-48 sm:h-64 sm:w-64 md:h-72 md:w-72">
             <Image
-              src="/assets/logo/logo - Frites and Co.png"
+              src="/icon-512x512.png"
               alt="Frites & Co - Maison à Burgers depuis 2010"
               fill
               className="object-contain drop-shadow-2xl"

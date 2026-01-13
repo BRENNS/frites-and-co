@@ -10,15 +10,15 @@ interface AboutSectionProps {
 
 const specialtyImages = {
   burgers: {
-    src: "/assets/img.png",
+    src: "/assets/img.webp",
     alt: "Burger artisanal Frites & Co",
   },
   frites: {
-    src: "/assets/ChatGPT Image 13 janv. 2026, 01_25_31.png",
+    src: "/assets/ChatGPT Image 13 janv. 2026, 01_25_31.webp",
     alt: "Frites maison double cuisson",
   },
   snacks: {
-    src: "/assets/Gemini_Generated_Image_i005f6i005f6i005.png",
+    src: "/assets/Gemini_Generated_Image_i005f6i005f6i005.webp",
     alt: "Snacks et accompagnements",
   },
 };
@@ -48,9 +48,10 @@ export function AboutSection({ className }: AboutSectionProps) {
     <div className={"h-auto gap-20 flex flex-col"}>
       <section
         className={cn(
-          "flex flex-col bg-zinc-900 px-6 py-12 sm:px-10 sm:py-16",
+          "flex flex-col px-6 py-12 sm:px-10 sm:py-16",
           className,
         )}
+        style={{ backgroundColor: "#E9DFCC" }}
         aria-labelledby="about-heading"
       >
         {/* Top: Qui sommes-nous */}
@@ -59,7 +60,8 @@ export function AboutSection({ className }: AboutSectionProps) {
             <div>
               <h2
                 id="about-heading"
-                className="text-3xl font-bold tracking-tight text-white sm:text-4xl"
+                className="text-3xl font-bold tracking-tight sm:text-4xl"
+                style={{ color: "#8B4513" }}
               >
                 {t("about.title")}
               </h2>
@@ -67,11 +69,12 @@ export function AboutSection({ className }: AboutSectionProps) {
 
             <div className="md:col-span-2 grid gap-4 sm:grid-cols-2 sm:gap-8">
               <p
-                className="text-sm leading-relaxed text-zinc-300"
+                className="text-sm leading-relaxed"
+                style={{ color: "#6B3410" }}
                 dangerouslySetInnerHTML={{ __html: t("about.paragraph-1") }}
               />
 
-              <p className="text-sm leading-relaxed text-zinc-300">
+              <p className="text-sm leading-relaxed" style={{ color: "#6B3410" }}>
                 {t("about.paragraph-2")}
               </p>
             </div>

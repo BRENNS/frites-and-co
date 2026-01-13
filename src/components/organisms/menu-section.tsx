@@ -8,51 +8,51 @@ interface MenuSectionProps {
 
 const galleryImages = [
   {
-    src: "/assets/gallery/ChatGPT Image 13 janv. 2026, 11_26_09.png",
+    src: "/assets/gallery/ChatGPT Image 13 janv. 2026, 11_26_09.webp",
     alt: "Frites & Co plat 1",
   },
   {
-    src: "/assets/gallery/ChatGPT Image 13 janv. 2026, 11_28_51.png",
+    src: "/assets/gallery/ChatGPT Image 13 janv. 2026, 11_28_51.webp",
     alt: "Frites & Co plat 2",
   },
   {
-    src: "/assets/gallery/ChatGPT Image 13 janv. 2026, 11_33_45.png",
+    src: "/assets/gallery/ChatGPT Image 13 janv. 2026, 11_33_45.webp",
     alt: "Frites & Co plat 3",
   },
   {
-    src: "/assets/gallery/ChatGPT Image 13 janv. 2026, 11_33_48.png",
+    src: "/assets/gallery/ChatGPT Image 13 janv. 2026, 11_33_48.webp",
     alt: "Frites & Co plat 4",
   },
   {
-    src: "/assets/gallery/ChatGPT Image 13 janv. 2026, 11_35_57.png",
+    src: "/assets/gallery/ChatGPT Image 13 janv. 2026, 11_35_57.webp",
     alt: "Frites & Co plat 5",
   },
   {
-    src: "/assets/gallery/ChatGPT Image 13 janv. 2026, 11_42_57.png",
+    src: "/assets/gallery/ChatGPT Image 13 janv. 2026, 11_42_57.webp",
     alt: "Frites & Co plat 6",
   },
   {
-    src: "/assets/gallery/ChatGPT Image 13 janv. 2026, 11_45_14.png",
+    src: "/assets/gallery/ChatGPT Image 13 janv. 2026, 11_45_14.webp",
     alt: "Frites & Co plat 7",
   },
   {
-    src: "/assets/gallery/ChatGPT Image 13 janv. 2026, 11_47_39.png",
+    src: "/assets/gallery/ChatGPT Image 13 janv. 2026, 11_47_39.webp",
     alt: "Frites & Co plat 8",
   },
   {
-    src: "/assets/gallery/ChatGPT Image 13 janv. 2026, 11_50_25.png",
+    src: "/assets/gallery/ChatGPT Image 13 janv. 2026, 11_50_25.webp",
     alt: "Frites & Co plat 9",
   },
   {
-    src: "/assets/gallery/ChatGPT Image 13 janv. 2026, 11_54_05.png",
+    src: "/assets/gallery/ChatGPT Image 13 janv. 2026, 11_54_05.webp",
     alt: "Frites & Co plat 10",
   },
   {
-    src: "/assets/gallery/ChatGPT Image 13 janv. 2026, 11_58_38.png",
+    src: "/assets/gallery/ChatGPT Image 13 janv. 2026, 11_58_38.webp",
     alt: "Frites & Co plat 11",
   },
   {
-    src: "/assets/gallery/ChatGPT Image 13 janv. 2026, 12_12_23.png",
+    src: "/assets/gallery/ChatGPT Image 13 janv. 2026, 12_12_23.webp",
     alt: "Frites & Co plat 11",
   },
 ];

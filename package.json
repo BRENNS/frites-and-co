@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "images:convert": "node scripts/convert-images.js",
+    "images:cleanup": "node scripts/cleanup-old-images.js"
   },
   "dependencies": {
     "@lottiefiles/dotlottie-react": "^0.17.12",
@@ -28,6 +30,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.1.1",
+    "sharp": "^0.34.5",
     "tailwindcss": "^4.1.18",
     "typescript": "^5"
   }

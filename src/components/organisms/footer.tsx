@@ -17,7 +17,8 @@ const navigation = [
 export function Footer({ className }: FooterProps) {
   return (
     <footer
-      className={cn("bg-zinc-950 px-6 py-16 sm:px-10 sm:py-20", className)}
+      className={cn("px-6 py-16 sm:px-10 sm:py-20", className)}
+      style={{ backgroundColor: "#E9DFCC" }}
     >
       <div className="mx-auto max-w-6xl">
         {/* Main grid */}
@@ -36,7 +37,7 @@ export function Footer({ className }: FooterProps) {
 
           {/* Navigation */}
           <nav aria-label="Footer navigation">
-            <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-zinc-500">
+            <h3 className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8B4513" }}>
               Navigation
             </h3>
             <ul className="mt-4 space-y-3">
@@ -44,7 +45,10 @@ export function Footer({ className }: FooterProps) {
                 <li key={item.label}>
                   <a
                     href={item.href}
-                    className="text-sm text-zinc-300 transition-colors hover:text-white"
+                    className="text-sm transition-colors"
+                    style={{ color: "#6B3410" }}
+                    onMouseEnter={(e) => e.currentTarget.style.color = "#8B4513"}
+                    onMouseLeave={(e) => e.currentTarget.style.color = "#6B3410"}
                   >
                     {item.label}
                   </a>
@@ -55,13 +59,13 @@ export function Footer({ className }: FooterProps) {
 
           {/* Contact */}
           <div>
-            <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-zinc-500">
+            <h3 className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8B4513" }}>
               Contact
             </h3>
             <dl className="mt-4 space-y-3 text-sm">
               <div>
                 <dt className="sr-only">Adresse</dt>
-                <dd className="text-zinc-300">
+                <dd style={{ color: "#6B3410" }}>
                   14 Pl. Ducale
                   <br />
                   08000 Charleville-Mézières
@@ -72,7 +76,10 @@ export function Footer({ className }: FooterProps) {
                 <dd>
                   <a
                     href="tel:+33324262948"
-                    className="text-zinc-300 transition-colors hover:text-white"
+                    className="transition-colors"
+                    style={{ color: "#6B3410" }}
+                    onMouseEnter={(e) => e.currentTarget.style.color = "#8B4513"}
+                    onMouseLeave={(e) => e.currentTarget.style.color = "#6B3410"}
                   >
                     03 24 26 29 48
                   </a>
@@ -83,7 +90,10 @@ export function Footer({ className }: FooterProps) {
                 <dd>
                   <a
                     href="mailto:frites-and-co@orange.fr"
-                    className="text-zinc-300 transition-colors hover:text-white"
+                    className="transition-colors"
+                    style={{ color: "#6B3410" }}
+                    onMouseEnter={(e) => e.currentTarget.style.color = "#8B4513"}
+                    onMouseLeave={(e) => e.currentTarget.style.color = "#6B3410"}
                   >
                     frites-and-co@orange.fr
                   </a>
@@ -94,17 +104,20 @@ export function Footer({ className }: FooterProps) {
         </div>
 
         {/* Bottom bar */}
-        <div className="mt-16 flex flex-col items-center justify-between gap-4 border-t border-zinc-800 pt-8 sm:flex-row">
-          <p className="text-sm text-zinc-500">
+        <div className="mt-16 flex flex-col items-center justify-between gap-4 border-t pt-8 sm:flex-row" style={{ borderTopColor: "#8B4513" }}>
+          <p className="text-sm" style={{ color: "#6B3410" }}>
             Maison à Burgers depuis 2010 — Charleville-Mézières
           </p>
-          <p className="text-sm text-zinc-500">
+          <p className="text-sm" style={{ color: "#6B3410" }}>
             Fait avec le cœur par{" "}
             <a
               href="https://www.suzzyapp.com/fr"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-zinc-300 underline transition-colors hover:text-white"
+              className="underline transition-colors"
+              style={{ color: "#8B4513" }}
+              onMouseEnter={(e) => e.currentTarget.style.color = "#6B3410"}
+              onMouseLeave={(e) => e.currentTarget.style.color = "#8B4513"}
             >
               Suzzy
             </a>
