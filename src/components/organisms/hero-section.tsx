@@ -39,7 +39,7 @@ export function HeroSection({ className }: HeroSectionProps) {
           {/* Logo */}
           <div className="relative h-48 w-48 sm:h-64 sm:w-64 md:h-72 md:w-72">
             <Image
-              src="/assets/logo/logo - Frites and Co.webp"
+              src="/icon-512x512.png"
               alt="Frites & Co - Maison à Burgers depuis 2010"
               fill
               className="object-contain drop-shadow-2xl"
