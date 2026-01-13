@@ -10,15 +10,15 @@ interface AboutSectionProps {
 
 const specialtyImages = {
   burgers: {
-    src: "/assets/img.png",
+    src: "/assets/img.webp",
     alt: "Burger artisanal Frites & Co",
   },
   frites: {
-    src: "/assets/ChatGPT Image 13 janv. 2026, 01_25_31.png",
+    src: "/assets/ChatGPT Image 13 janv. 2026, 01_25_31.webp",
     alt: "Frites maison double cuisson",
   },
   snacks: {
-    src: "/assets/Gemini_Generated_Image_i005f6i005f6i005.png",
+    src: "/assets/Gemini_Generated_Image_i005f6i005f6i005.webp",
     alt: "Snacks et accompagnements",
   },
 };

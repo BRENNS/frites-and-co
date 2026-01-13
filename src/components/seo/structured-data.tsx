@@ -14,7 +14,7 @@ export function StructuredData() {
     email: "frites-and-co@orange.fr",
     image: [
       "https://frites-and-co.fr/og-image.jpg",
-      "https://frites-and-co.fr/assets/hero-bg.png",
+      "https://frites-and-co.fr/assets/hero-bg.webp",
     ],
     logo: "https://frites-and-co.fr/assets/logo/logo - Frites and Co.png",
     priceRange: "€€",
