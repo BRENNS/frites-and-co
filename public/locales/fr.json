@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "title": "Frites & Co | Maison à Burgers depuis 2010",
+    "description": "Les meilleurs burgers de Charleville-Mézières. Frites & Co, votre maison à burgers depuis 2010."
+  },
+  "nav": {
+    "menu": "Menu",
+    "reserve": "Réserver"
+  },
+  "hero": {
+    "tagline": "Les meilleurs burgers de Charleville-Mézières",
+    "cta": "Réserver une table"
+  },
+  "about": {
+    "title": "Qui sommes-nous",
+    "paragraph-1": "Bienvenue chez <strong>Frites & Co</strong>, en plein cœur de la place Ducale à Charleville-Mézières. Ici, tout est fait maison : nos burgers artisanaux, nos frites épluchées et cuites à la belge, et nos sauces de qualité.",
+    "paragraph-2": "Loin des enseignes standardisées, nous vous proposons une cuisine authentique et savoureuse. Végétarien, poisson ou gourmand — chaque plat est préparé avec passion, à la demande.",
+    "specialties": {
+      "burgers": {
+        "title": "Nos burgers faits maison",
+        "description": "Pain artisanal, steaks hachés de qualité, légumes frais et sauces maison."
+      },
+      "frites": {
+        "title": "Frites maison double cuisson",
+        "description": "Épluchées sur place chaque jour, cuites à la belge à la graisse de bœuf."
+      },
+      "snacks": {
+        "title": "Nos délicieux snacks",
+        "description": "Nuggets, wings, onion rings... Tous nos accompagnements sont faits maison."
+      }
+    }
+  },
+  "menu": {
+    "title": "Notre carte",
+    "view-full": "Voir la carte complète"
+  },
+  "cta": {
+    "title": "Envie d'un bon burger ?",
+    "subtitle": "Réservez votre table dès maintenant",
+    "button": "Réserver"
+  },
+  "footer": {
+    "address": "Place Ducale, Charleville-Mézières",
+    "rights": "Tous droits réservés",
+    "made-with": "Fait avec"
+  }
+}
