@@ -13,7 +13,7 @@ import {
   LanguageSelector,
 } from "./navbar";
 
-const navItems = [{ name: "Menu", link: "/menu" }];
+const navItems = [{ name: "Menu", link: "https://app.suzzyapp.com/frites-and-co-c174/dine-in" }];
 
 export function SiteNavbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

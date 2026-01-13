@@ -7,7 +7,7 @@ interface FooterProps {
 
 const navigation = [
   { label: "Accueil", href: "/" },
-  { label: "Menu", href: "/menu" },
+  { label: "Menu", href: "https://app.suzzyapp.com/frites-and-co-c174/dine-in" },
   {
     label: "Réservation",
     href: "https://app.suzzyapp.com/frites-and-co-c174/reservation",

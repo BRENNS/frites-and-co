@@ -78,7 +78,7 @@ export function MenuSection({ className }: MenuSectionProps) {
           rafraîchissantes. Il y en a pour tous les goûts.
         </p>
         <div className="mt-8">
-          <BrutalistButton as="a" href="/menu" variant="primary">
+          <BrutalistButton as="a" href="https://app.suzzyapp.com/frites-and-co-c174/dine-in" target="_blank" rel="noopener noreferrer" variant="primary">
             Voir le menu
           </BrutalistButton>
         </div>

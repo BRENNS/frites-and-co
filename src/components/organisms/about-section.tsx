@@ -49,7 +49,7 @@ export function AboutSection({ className }: AboutSectionProps) {
       <section
         className={cn(
           "flex flex-col bg-zinc-900 px-6 py-12 sm:px-10 sm:py-16",
-          className
+          className,
         )}
         aria-labelledby="about-heading"
       >
@@ -81,7 +81,7 @@ export function AboutSection({ className }: AboutSectionProps) {
 
       {/* Bottom: Simple Cards Grid */}
       <div className="mx-auto w-full max-w-6xl">
-        <div className="grid grid-cols-1 gap-8 sm:grid-cols-3 sm:gap-6 lg:gap-10">
+        <div className="grid grid-cols-1 gap-8 sm:grid-cols-3 sm:gap-6 lg:gap-10 sm:px-0 px-4">
           {specialties.map((item) => (
             <div key={item.id} className="group">
               {/* Image */}

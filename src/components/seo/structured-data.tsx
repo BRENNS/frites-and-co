@@ -20,7 +20,7 @@ export function StructuredData() {
     priceRange: "€€",
     servesCuisine: ["Burgers", "Frites", "Américain", "Fast-casual"],
     acceptsReservations: "True",
-    hasMenu: "https://frites-and-co.fr/#menu",
+    hasMenu: "https://app.suzzyapp.com/frites-and-co-c174/dine-in",
     address: {
       "@type": "PostalAddress",
       streetAddress: "14 Place Ducale",
