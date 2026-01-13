@@ -37,7 +37,7 @@ export function Footer({ className }: FooterProps) {
 
           {/* Navigation */}
           <nav aria-label="Footer navigation">
-            <h3 className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#D4924A" }}>
+            <h3 className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8B4513" }}>
               Navigation
             </h3>
             <ul className="mt-4 space-y-3">
@@ -46,9 +46,9 @@ export function Footer({ className }: FooterProps) {
                   <a
                     href={item.href}
                     className="text-sm transition-colors"
-                    style={{ color: "#C87E3A" }}
-                    onMouseEnter={(e) => e.currentTarget.style.color = "#D4924A"}
-                    onMouseLeave={(e) => e.currentTarget.style.color = "#C87E3A"}
+                    style={{ color: "#6B3410" }}
+                    onMouseEnter={(e) => e.currentTarget.style.color = "#8B4513"}
+                    onMouseLeave={(e) => e.currentTarget.style.color = "#6B3410"}
                   >
                     {item.label}
                   </a>
@@ -59,13 +59,13 @@ export function Footer({ className }: FooterProps) {
 
           {/* Contact */}
           <div>
-            <h3 className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#D4924A" }}>
+            <h3 className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8B4513" }}>
               Contact
             </h3>
             <dl className="mt-4 space-y-3 text-sm">
               <div>
                 <dt className="sr-only">Adresse</dt>
-                <dd style={{ color: "#C87E3A" }}>
+                <dd style={{ color: "#6B3410" }}>
                   14 Pl. Ducale
                   <br />
                   08000 Charleville-Mézières
@@ -77,9 +77,9 @@ export function Footer({ className }: FooterProps) {
                   <a
                     href="tel:+33324262948"
                     className="transition-colors"
-                    style={{ color: "#C87E3A" }}
-                    onMouseEnter={(e) => e.currentTarget.style.color = "#D4924A"}
-                    onMouseLeave={(e) => e.currentTarget.style.color = "#C87E3A"}
+                    style={{ color: "#6B3410" }}
+                    onMouseEnter={(e) => e.currentTarget.style.color = "#8B4513"}
+                    onMouseLeave={(e) => e.currentTarget.style.color = "#6B3410"}
                   >
                     03 24 26 29 48
                   </a>
@@ -91,9 +91,9 @@ export function Footer({ className }: FooterProps) {
                   <a
                     href="mailto:frites-and-co@orange.fr"
                     className="transition-colors"
-                    style={{ color: "#C87E3A" }}
-                    onMouseEnter={(e) => e.currentTarget.style.color = "#D4924A"}
-                    onMouseLeave={(e) => e.currentTarget.style.color = "#C87E3A"}
+                    style={{ color: "#6B3410" }}
+                    onMouseEnter={(e) => e.currentTarget.style.color = "#8B4513"}
+                    onMouseLeave={(e) => e.currentTarget.style.color = "#6B3410"}
                   >
                     frites-and-co@orange.fr
                   </a>
@@ -104,20 +104,20 @@ export function Footer({ className }: FooterProps) {
         </div>
 
         {/* Bottom bar */}
-        <div className="mt-16 flex flex-col items-center justify-between gap-4 border-t pt-8 sm:flex-row" style={{ borderTopColor: "#D4924A" }}>
-          <p className="text-sm" style={{ color: "#C87E3A" }}>
+        <div className="mt-16 flex flex-col items-center justify-between gap-4 border-t pt-8 sm:flex-row" style={{ borderTopColor: "#8B4513" }}>
+          <p className="text-sm" style={{ color: "#6B3410" }}>
             Maison à Burgers depuis 2010 — Charleville-Mézières
           </p>
-          <p className="text-sm" style={{ color: "#C87E3A" }}>
+          <p className="text-sm" style={{ color: "#6B3410" }}>
             Fait avec le cœur par{" "}
             <a
               href="https://www.suzzyapp.com/fr"
               target="_blank"
               rel="noopener noreferrer"
               className="underline transition-colors"
-              style={{ color: "#D4924A" }}
-              onMouseEnter={(e) => e.currentTarget.style.color = "#B8762E"}
-              onMouseLeave={(e) => e.currentTarget.style.color = "#D4924A"}
+              style={{ color: "#8B4513" }}
+              onMouseEnter={(e) => e.currentTarget.style.color = "#6B3410"}
+              onMouseLeave={(e) => e.currentTarget.style.color = "#8B4513"}
             >
               Suzzy
             </a>

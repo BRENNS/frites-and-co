@@ -61,7 +61,7 @@ export function AboutSection({ className }: AboutSectionProps) {
               <h2
                 id="about-heading"
                 className="text-3xl font-bold tracking-tight sm:text-4xl"
-                style={{ color: "#D4924A" }}
+                style={{ color: "#8B4513" }}
               >
                 {t("about.title")}
               </h2>
@@ -70,11 +70,11 @@ export function AboutSection({ className }: AboutSectionProps) {
             <div className="md:col-span-2 grid gap-4 sm:grid-cols-2 sm:gap-8">
               <p
                 className="text-sm leading-relaxed"
-                style={{ color: "#C87E3A" }}
+                style={{ color: "#6B3410" }}
                 dangerouslySetInnerHTML={{ __html: t("about.paragraph-1") }}
               />
 
-              <p className="text-sm leading-relaxed" style={{ color: "#C87E3A" }}>
+              <p className="text-sm leading-relaxed" style={{ color: "#6B3410" }}>
                 {t("about.paragraph-2")}
               </p>
             </div>
