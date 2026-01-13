@@ -17,16 +17,20 @@ export function LoadingLayout({
   fadeDuration = 500,
   className,
 }: LoadingLayoutProps) {
-  const [isVisible, setIsVisible] = useState(true);
+  const [isLoading, setIsLoading] = useState(true);
   const [isFading, setIsFading] = useState(false);
+  const [showContent, setShowContent] = useState(false);
 
   useEffect(() => {
+    // Start fading the loader
     const fadeTimer = setTimeout(() => {
       setIsFading(true);
+      setShowContent(true);
     }, duration);
 
+    // Remove loader completely
     const hideTimer = setTimeout(() => {
-      setIsVisible(false);
+      setIsLoading(false);
     }, duration + fadeDuration);
 
     return () => {
@@ -36,12 +40,13 @@ export function LoadingLayout({
   }, [duration, fadeDuration]);
 
   return (
-    <div className={"bg-white"}>
-      {isVisible && (
+    <>
+      {/* Loader overlay */}
+      {isLoading && (
         <div
           className={cn(
             "fixed inset-0 z-50 flex items-center justify-center bg-white transition-opacity dark:bg-black",
-            isFading ? "opacity-0" : "opacity-100",
+            isFading ? "opacity-0 pointer-events-none" : "opacity-100",
             className,
           )}
           style={{ transitionDuration: `${fadeDuration}ms` }}
@@ -49,7 +54,16 @@ export function LoadingLayout({
           <Loader />
         </div>
       )}
-      {children}
-    </div>
+
+      {/* Content - only rendered when showContent is true */}
+      {showContent && (
+        <div
+          className="animate-fade-in"
+          style={{ animationDuration: `${fadeDuration}ms` }}
+        >
+          {children}
+        </div>
+      )}
+    </>
   );
 }

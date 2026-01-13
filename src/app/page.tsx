@@ -10,7 +10,7 @@ import { Footer } from "@/components/organisms/footer";
 
 export default function Home() {
   return (
-    <LoadingLayout duration={3400}>
+    <LoadingLayout duration={2000}>
       <SiteNavbar />
       <main>
         <HeroSection />
