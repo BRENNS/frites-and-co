@@ -111,7 +111,7 @@ export function Footer({ className }: FooterProps) {
           <p className="text-sm" style={{ color: "#6B3410" }}>
             Fait avec le cœur par{" "}
             <a
-              href="https://www.suzzyapp.com/fr"
+              href="https://www.suzzyapp.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="underline transition-colors"
